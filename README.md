@@ -94,7 +94,7 @@
 ## Screenshots
 
 - Below are some screenshots illustrating CashPilot in action.
-  - ![Dashboard](screenshots/dashboard.png) 
+  - [Dashboard](screenshots/dashboard.png) 
   - ![Transactions](screenshots/transactions.png)
   - ![Expense Chart](screenshots/expensechart.png)
 ## Contributing
