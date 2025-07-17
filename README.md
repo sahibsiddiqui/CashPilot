@@ -110,4 +110,4 @@
 
 ## Project Link 
 
-- [https://github.com/sahibsiddiqui/CashPilot](https://github.com/sahibsiddiqui/CashPilot)
+- [https://cashpilot-theta.vercel.app/](https://cashpilot-theta.vercel.app/)
