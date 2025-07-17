@@ -15,6 +15,7 @@
   - [Development](#development)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
+- [Screenshots](screenshots)
 - [Contributing](#contributing)
 - [Contact](#contact)
 
@@ -89,6 +90,10 @@
 2. **View Dashboard**: Monitor spending categories and monthly trends.
 3. **Edit & Delete**: Modify or remove transactions as needed.
 4. **Data Persistence**: Transactions persist across sessions via local storage.
+
+## Screenshots
+
+- Below are some screenshots illustrating CashPilot in action.
 
 ## Contributing
 
