@@ -52,7 +52,7 @@
   
   # Install dependencies
   npm install
-  # or
+  or
   yarn install
   ```
 
@@ -60,7 +60,7 @@
   ```
   # Start the development server
   npm run dev
-  # or
+  or
   yarn dev
   
   # Open http://localhost:5173 in your browser
