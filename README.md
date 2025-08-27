@@ -4,7 +4,7 @@
 Track income & expenses, view transactions month-wise, and sign in with email — deployed live.
 
 > Live demo:
-> `[https://cashpilotz.vercel.app](https://cashpilotz.vercel.app/)`
+> `[https://cashpilotz.vercel.app]`
 
 ---
 
