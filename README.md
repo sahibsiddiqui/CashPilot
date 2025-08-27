@@ -1,12 +1,62 @@
-# React + Vite
+# CashPilot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A lightweight personal finance tracker** built with React, TailwindCSS and Supabase.  
+Track income & expenses, view transactions month-wise, and sign in with email — deployed live.
 
-Currently, two official plugins are available:
+> Live demo:
+> `[https://cashpilotz.vercel.app](https://cashpilotz.vercel.app/)`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## What this project is
+CashPilot is an MVP expense/income tracking app with:
+- Email-based authentication (Supabase)
+- Per-user transactions stored in Supabase
+- Add / Delete transactions
+- View transactions (all / month-wise)
+- Responsive UI (mobile-first dashboard + bottom nav)
+- Deployed to Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+- ✅ Sign up / Login (Supabase Auth)
+- ✅ CRUD for transactions (Supabase DB + RLS)
+- ✅ Monthly grouping and per-month totals
+- ✅ Responsive dashboard & mobile bottom nav
+- ✅ Search, sort, pagination for "All transactions"
+- ✅ Delete with confirmation
+
+---
+
+## Tech stack
+- Frontend: React + Vite  
+- Styling: Tailwind CSS  
+- Backend / Auth / DB: Supabase (Auth + Postgres)  
+- Hosting: Vercel
+
+---
+
+## Quick start — run locally
+
+1. Clone:
+```
+git clone git@github.com:YOUR_USER/YOUR_REPO.git
+cd YOUR_REPO
+```
+2. Install:
+```
+npm install
+```
+3. Add environment variables (create .env in project root — do not commit it):
+```
+VITE_SUPABASE_URL=https://your-project-ref.supabase.co
+VITE_SUPABASE_ANON_KEY=your-anon-public-key
+```
+4. Run dev server:
+```
+npm run dev
+Open http://localhost:5173
+```
+Also,
+don't forget to do the Supabase setup :)
