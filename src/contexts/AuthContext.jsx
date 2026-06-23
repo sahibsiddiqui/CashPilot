@@ -41,18 +41,22 @@ export const AuthProvider = ({ children }) => {
     };
   }, []);
 
-  // sign up (email + password)
   const signUp = async (email, password) => {
     setLoading(true);
     try {
-      const { data, error } = await supabase.auth.signUp({ email, password });
+      const { data, error } = await supabase.auth.signUp({
+        email,
+        password,
+        options: {
+          data: { full_name: name }, // storing in user.user_metadata.full_name
+        },
+      });
       return { data, error };
     } finally {
       setLoading(false);
     }
   };
 
-  // sign in with email + password
   const signIn = async (email, password) => {
     setLoading(true);
     try {
@@ -63,7 +67,6 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  // sign out
   const signOut = async () => {
     setLoading(true);
     try {

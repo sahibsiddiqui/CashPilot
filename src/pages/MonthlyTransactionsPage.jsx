@@ -68,7 +68,7 @@ export default function MonthlyTransactionsPage() {
     <div className="p-8">
       <div className="flex items-center justify-between mb-6">
         <div>
-          <h2 className="text-2xl font-bold">Transactions — By Month</h2>
+          <h2 className="text-2xl font-bold">Transactions - By Month</h2>
           <p className="text-sm text-gray-500">Select a month to view totals and transactions grouped by month.</p>
         </div>
 
